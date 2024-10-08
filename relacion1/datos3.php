@@ -33,6 +33,10 @@
             if ($_POST["estadocivil"] != "wrong") {
                 $correctEstado = true;
             }
+            
+                        if (!empty($_POST["sexo"])) {
+                $sexExists = true;
+            }
         }
 
 
