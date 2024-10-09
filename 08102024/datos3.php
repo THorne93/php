@@ -81,6 +81,8 @@
             </form>
             <?php
         }
+        
+//        <!-- test-!>
         if (isset($_POST["enviar2"])) {
             echo "nombre: " . $_POST["nombre"] . "<br>";
             echo "apellido: " . $_POST["apell"] . "<br>";
