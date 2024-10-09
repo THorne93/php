@@ -59,17 +59,9 @@
 
                 <label>Estado civil:</label> <select name="estadocivil">
                     <option value="wrong"  >Seleccione uno</option>
-
-
-                    <option value="soltero"  
-                            >Soltero</option>
-
-
+                    <option value="soltero">Soltero</option>
                     <option value="casado" >Casado</option>
-
-
                     <option value="divorciado" >Divorciado</option>
-
                     <option value="pareja">Pareja de hecho</option>
 
                 </select>
