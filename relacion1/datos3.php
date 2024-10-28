@@ -51,7 +51,7 @@
         } else {
             ?>
 
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+            <form style="encabezado" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                 Nombre: <input type="text" name="nombre" value="<?php if ($nameExists) echo $_POST['nombre']; ?>">
                 <?php
                 if (isset($_POST["enviar"]) && !$nameExists)

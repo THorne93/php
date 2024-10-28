@@ -42,7 +42,7 @@
                     <input type="checkbox" name="modulos[]" value="DIW">Desarrollo Interfaces Web<br>
                     <input type="submit" name="enviar" value='Enviar'>
             </form>
-               <a href = "procesa.php?nombre=Pepe&apell=Sanchez&salario=1000">Ir a procesa</a>
+               <a href = "procesa.php?nombre=Pepe">Ir a procesa</a>
           
             <?php
     }
