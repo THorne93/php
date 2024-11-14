@@ -3,14 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/buscar.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/14102024/bbdd.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/mostrar.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/index.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/introducir.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/borrar.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/funciones.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Futbol/modificar.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/databases/connection.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/encryption/index.php</file>
         </group>
     </open-files>
 </project-private>
