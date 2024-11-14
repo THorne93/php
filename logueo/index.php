@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION["intentos"]=3;
 ?>
 <?php
 if (isset($_POST["login"])) {

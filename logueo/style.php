@@ -9,7 +9,7 @@ if (isset($_SESSION["login"])) {
             color: <?php echo $_SESSION["usuario"]->color_letra ?>;
 
             background-color: <?php echo $_SESSION["usuario"]->color_fondo ?>;
-            font-family : <?php echo $_SESSION["usuario"]->tipo_letra ?>;
+            font-family :<?php echo $_SESSION["usuario"]->tipo_letra ?>;
             font-size: <?php echo $_SESSION["usuario"]->tam_letra ?>px;
 
         }
