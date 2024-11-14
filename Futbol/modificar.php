@@ -14,13 +14,13 @@
         require_once 'funciones.php';
 
         $check = false;
-        if (isset($_POST["insertar"])) {
-            if (!empty($_POST["nombre"]) && !empty($_POST["dni"]) && !empty($_POST["equipo"]) && !empty($_POST["goles"]) && isset($_POST["posicion"])) {
+       if (isset($_POST["modificar"])) {
+            if (!empty($_POST["nombre"]) && checkNombre($_POST["nombre"]) && checkDNI($_POST["dni"]) && !empty($_POST["equipo"]) && !empty($_POST["goles"]) && checkGoles($_POST["goles"]) && isset($_POST["posicion"])) {
                 $check = true;
             } else
                 echo "HAY ERRORES EN EL FORMULARIO";
         }
-        if (isset($_POST["insertar"]) && $check) {
+        if (isset($_POST["modificar"]) && $check ) {
             try {
                 $conex = getConnection("dwes");
                 $position = 0;
@@ -49,8 +49,10 @@
                 while ($fila = $result->fetch_object()) {
                     ?>
                     <form action="" method="POST">
-                        DNI:<input type="text" disabled name="dni" value="<?php echo $fila->dni ?>"><br>
-                        Nombre:<input type="text" name="nombre" value="<?php echo $fila->nombre ?>"><br>
+                        DNI:<input type="text" readonly name="dni" value="<?php echo $fila->dni ?>">
+                        <input type="hidden" name="dni" value="<?php echo $fila->dni ?>"><br>
+                        Nombre:<input type="text" name="nombre" value="<?php echo $fila->nombre ?>">
+                        <br>
                         Dorsal:<select  name="dorsal">
                             <?php
                             $i = 1;
@@ -101,7 +103,7 @@
                         Equipo:<input type="text" name="equipo" value="<?php echo $fila->equipo ?>"><br>
                         Nº Goles:<input type="text" name="goles" value="<?php echo $fila->numGoles ?>"><br>
                         <a href="index.php"><input type="button" value="Inicio"></input></a>
-                        <input type="submit" name="insertar" value="Modificar">
+                        <input type="submit" name="modificar" value="Modificar">
                     </form>
                     <?php
                 }

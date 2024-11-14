@@ -23,8 +23,9 @@
                 $conex = getConnection("dwes");
                 $option = $_POST["searchOption"];
                 $val = $_POST["searchValue"];
-                $stmt = $conex->prepare("SELECT * from jugadores where FIND_IN_SET(?,$option)");
-                $stmt->bind_param("s", $val);
+                $val2="%$val%";
+                $stmt = $conex->prepare("SELECT * from jugadores where $option LIKE ?");
+                $stmt->bind_param("s", $val2);
                 $stmt->execute();
                 $result = $stmt->get_result();
             } catch (Exception $ex) {
