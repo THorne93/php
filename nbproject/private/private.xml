@@ -3,12 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/Controllers/tareaController.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/View/session.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/Controllers/empleadoController.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/View/nuevatarea.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/Controllers/realizaController.php</file>
-            <file>file:/C:/xampp/htdocs/tema1/Objects/Empleados/View/actualizatarea.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/salir.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/logueo/intentos.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/inicio.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/Model/alquiler.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/nuevojuego.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/juego.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/Controllers/clienteController.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/menu.php</file>
+            <file>file:/C:/xampp/htdocs/tema1/Objects/AlquilerJuegos/View/login.php</file>
         </group>
     </open-files>
 </project-private>
